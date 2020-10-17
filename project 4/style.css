@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row{
+	height: 70vh;
+	width: 100%;
+	background: #072F5F;
+}
+.col-md-4{
+	display: inline-flex;
+    height: 70px;
+    width: 150px;
+}
+#simon{
+	margin-left: 100px;
+	height: 80px;
+	width: 500px;
+}
+.d-flex i{
+	color: #fff;
+	margin-left: 60px;
+}
+ h1{
+    color: #fff;
+    margin-left: 100px;
+}
+ p{
+ 	margin-left: 100px;
+	font-family: sans-serif;
+	margin-top: 5px;
+	font-size: 20px;
+	color: #fff;
+}
+#pht{
+	height: 30px;
+	width: 150px;
+}
+ img{
+	border-radius: 10px;
+	margin-left: 200px;
+	width: 400px;
+}
+/*--header-----*/
+#row2{
+	margin-bottom: 50px;
+	 display: inline-flex;
+}
+ .col-lg-4{
+ 	margin-left: 17px;
+ 	border-radius: 10px;
+ 	display: inline-flex;
+ 	flex-direction: column;
+ 	height: 63vh;
+ 	width: 250px;
+ 	background: #B0DFE5;
+ }
+h2{
+	padding-top: 40px;
+	margin-left: 100px;
+	color:blue;
+}
+.para{
+	margin-left: 70px;
+	margin-top: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.para2{
+	margin-top: 30px;
+	padding right: 20px;
+    padding-left: 40px;
+	line-height: 30px; 
+	color: #fff;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+
+#work{
+	border-radius: 10px;
+	background: #87CEEB;
+	height: 63vh;
+    width: 700px;
+}
+h3{
+	padding-top: 10px;
+	margin-left: 200px;
+	font-size: 50px;
+	color: blue;
+}
+#man{
+	border-radius: 10px;
+	background: #87CEEB;
+	height: 63vh;
+	width: 500px;
+}
+.img{
+	margin-right: 40px;
+	height: 30vh;
+	width: 30vh;
+	padding-top: 30px;
+}
+.para3{
+	margin-left: 200px;
+	color: blue;
+}
+.para3 span{
+	padding-top: 80px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+@media(max-width: 800px){
+	.row{
+	height: 66vh;
+}
+/*.col-md-4{
+	display: inline-flex;
+    height: 70px;
+    width: 150px;
+}*/
+#simon{
+	margin-left: 10px;
+}
+.d-flex i{
+	margin-left: 10px;
+}
+ h1{
+
+    margin-left: 10px;
+}
+ p{
+ 	margin-left: 10px;
+}
+#pht{
+	height: 30px;
+	width: 150px;
+}
+ img{
+	margin-left: 50px;
+	width: 300px;
+}
+/*--header-----*/
+#row2{
+	margin-bottom: 50px;
+	 display: inline-flex;
+}
+ .col-lg-4{
+ 	margin-left: 7px;
+ 	display: inline-flex;
+ 	flex-direction: column;
+ 	height: 63vh;
+ 	width: 250px;
+ }
+h2{
+	margin-left: 50px;
+}
+.para{
+	margin-left: 50px;
+}
+h3{
+	padding-top: 10px;
+	margin-left: 50px;
+}
+#man{
+	height: 63vh;
+	width: 150px;
+}
+#img{
+	height: 20vh;
+	width: 40px;
+	padding-top: 30px;
+}
+.para3{
+	margin-left: 20px;
+	color: blue;
+}
+}
